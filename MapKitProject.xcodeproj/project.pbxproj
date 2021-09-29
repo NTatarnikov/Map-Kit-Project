@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11A457DF270443A9002E4F1A /* demonstration.gif in Resources */ = {isa = PBXBuildFile; fileRef = 11A457DE270443A9002E4F1A /* demonstration.gif */; };
 		11E7067E2703260E00B36A56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E7067D2703260E00B36A56 /* AppDelegate.swift */; };
 		11E706802703260E00B36A56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E7067F2703260E00B36A56 /* SceneDelegate.swift */; };
 		11E706822703260E00B36A56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E706812703260E00B36A56 /* ViewController.swift */; };
 		11E706852703260E00B36A56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E706832703260E00B36A56 /* Main.storyboard */; };
 		11E706872703260F00B36A56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E706862703260F00B36A56 /* Assets.xcassets */; };
 		11E7068A2703260F00B36A56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E706882703260F00B36A56 /* LaunchScreen.storyboard */; };
+		11E7069227033FDC00B36A56 /* Capital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E7069127033FDC00B36A56 /* Capital.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11A457DE270443A9002E4F1A /* demonstration.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demonstration.gif; sourceTree = "<group>"; };
 		11E7067A2703260E00B36A56 /* MapKitProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapKitProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E7067D2703260E00B36A56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11E7067F2703260E00B36A56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		11E706862703260F00B36A56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11E706892703260F00B36A56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11E7068B2703260F00B36A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11E7069127033FDC00B36A56 /* Capital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capital.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				11E7067D2703260E00B36A56 /* AppDelegate.swift */,
 				11E7067F2703260E00B36A56 /* SceneDelegate.swift */,
 				11E706812703260E00B36A56 /* ViewController.swift */,
+				11E7069127033FDC00B36A56 /* Capital.swift */,
 				11E706832703260E00B36A56 /* Main.storyboard */,
 				11E706862703260F00B36A56 /* Assets.xcassets */,
 				11E706882703260F00B36A56 /* LaunchScreen.storyboard */,
 				11E7068B2703260F00B36A56 /* Info.plist */,
+				11A457DE270443A9002E4F1A /* demonstration.gif */,
 			);
 			path = MapKitProject;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11A457DF270443A9002E4F1A /* demonstration.gif in Resources */,
 				11E7068A2703260F00B36A56 /* LaunchScreen.storyboard in Resources */,
 				11E706872703260F00B36A56 /* Assets.xcassets in Resources */,
 				11E706852703260E00B36A56 /* Main.storyboard in Resources */,
@@ -139,6 +146,7 @@
 			files = (
 				11E706822703260E00B36A56 /* ViewController.swift in Sources */,
 				11E7067E2703260E00B36A56 /* AppDelegate.swift in Sources */,
+				11E7069227033FDC00B36A56 /* Capital.swift in Sources */,
 				11E706802703260E00B36A56 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
